@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "clarity-app",
+    "slug": "clarity-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.noga03.clarityapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.noga03.clarityapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
